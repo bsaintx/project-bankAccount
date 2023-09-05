@@ -10,15 +10,15 @@ public class TerminalAccount {
      */
     public static void main(String[] args) {
 
-        System.out.println("Bem-vindo ao Sistema de Criação de Conta Bancária");
-        String nomeDaConta = getInput("Digite seu nome: ");
-        String numeroDaAgencia = getInput("Por favor, digite o número da sua agência: ");
-        int numeroDaConta = getIntInput("Número da conta: ");
-        double saldoDaConta = getDoubleInput("Qual é o saldo da sua conta bancária? ");
+        System.out.println("Welcome to the Bank Account Creation System");
+        String accountName = getInput("Type your name: ");
+        String branchNumber = getInput("Please, now type your branch number: ");
+        int accountNumber = getIntInput("Account number: ");
+        double accountBalance = getDoubleInput("What is the balance in your bank account? ");
 
-        System.out.println("Olá, " + nomeDaConta + ", obrigado por criar uma conta em nosso banco.");
-        System.out.println("Sua agência é " + numeroDaAgencia + ", número da conta: " + numeroDaConta +
-                ", e seu saldo é " + saldoDaConta + ", que agora está disponível para saque.");
+        System.out.println("Hello, " + accountName + ", thank you for creating an account with our bank.");
+        System.out.println("Your branch is " + branchNumber + ", account number: " + accountNumber +
+                ", and your balance is " + accountBalance + ", which is now available for withdrawal.");
     }
 
     /**
