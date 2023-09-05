@@ -19,10 +19,15 @@ public class TerminalAccount {
     public static void main(String[] args) {
 
         System.out.println("Welcome to the Bank Account Creation System");
+
+        System.out.println("   ");
+      
         String accountName = getInput("Type your name: ");
         String branchNumber = getInput("Please, now type your branch number: ");
         int accountNumber = getIntInput("Account number: ");
         double accountBalance = getDoubleInput("What is the balance in your bank account? ");
+
+        System.out.println("   ");
 
         System.out.println("Hello, " + accountName + ", thank you for creating an account with our bank.");
         System.out.println("Your branch is " + branchNumber + ", account number: " + accountNumber +
