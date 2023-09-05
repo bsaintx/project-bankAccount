@@ -1,3 +1,11 @@
+  /**
+     * <h1> TerminalAccount </h1>
+     * 
+     * @author bSaintx
+     * @version 1.0
+     * @since 05/09/2023
+    jav */
+
 import java.util.Locale;
 import java.util.Scanner;
 
